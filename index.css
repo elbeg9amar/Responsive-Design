@@ -144,6 +144,10 @@ footer div {
 }
 /* responsive design starts here*/
 @media(max-width: 800px){
+	header {
+		background-color: blanchedalmond;
+		
+	}
 	header h1{
 		display: flex;
 		justify-content: center;
@@ -157,4 +161,24 @@ footer div {
 	header .links a button{
 		width: 5rem;
 	}
+	/* introduction part starts here*/
+	.Part1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.Part1 div .img1{
+		width: 94%;
+		}
+	.Part1 .text{
+		margin:0%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.Part1 .text p{
+		margin: 0%;
+		padding: 1% 28% 1% 28%;
+	}
+	
 }
