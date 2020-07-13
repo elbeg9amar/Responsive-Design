@@ -42,19 +42,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 .head {
 	
 	background-color: #FFFAFA;
-	
 }
 *{
 	font-family: 'Shadows Into Light', cursive;
 	
 }
-
-	
-	
-
 header h1{
 	font-size: 55px;
 	width: 100%;
@@ -95,6 +91,9 @@ header .links{
 .Part1 .text p {
 	margin: 3% 15% 4% 0%;
 }
+.Part1, .pics {
+	background-color: lightcyan;
+}
 section div img {
 	width: 150px;
 	height: 150px;
@@ -119,7 +118,7 @@ section div img {
 	opacity: .5;
 	transition: .9s;
 }
-.footer {
+footer {
 	text-align: center;
 	font-size: 20px;
 	padding: 3% 0% 3% 0%;
@@ -130,10 +129,6 @@ footer div button{
 	text-align: center;
 	background-color: #F5FFFA;
 	margin-top:1%;
-
-}
-.Part1, .pics {
-		background-color: lightcyan;
 }
 footer div {
 	background-color: #F5FFFA;
@@ -176,6 +171,10 @@ footer div {
 		flex-direction: column;
 		align-items: center;
 	}
+	.Part1 .text button{
+		font-size: 1rem;
+		padding: 0%;
+	}
 	.Part1 .text p{
 		margin: 0%;
 		padding: 1% 28% 1% 28%;
@@ -187,5 +186,8 @@ footer div {
 		object-fit: fill;
 	}
 	/*footer starts here*/
-}
+	footer h4 {
+		font-size: 4rem;
+	}
+} /* 800px finishes here*/
 
